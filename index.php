@@ -57,7 +57,7 @@
    </div>
    <div class="card">
      <h3>Follow Me on Twitter</h3>
-     <p>@humaprathama</p>
+     <p>@guntur</p>
    </div>
  </div>
 </div>
