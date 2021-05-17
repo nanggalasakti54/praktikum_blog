@@ -18,7 +18,7 @@ $posts = $conn->query("SELECT * FROM Post");
 <a href="insert.php">Buat artikel</a>
 <?php
 while($post = $posts->fetch_object()) {
- ?>
+?>
    <div class="card">
        <a href="post.php?id=<?php echo $post->id ?>"><h2><?php echo $post->title; ?></h2></a>
        <h5><?php echo $post->createdAt; ?></h5>
@@ -29,5 +29,6 @@ while($post = $posts->fetch_object()) {
    <?php
 }
 ?>
+
 <?php include "../footer.php" ?>
 
