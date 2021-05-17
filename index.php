@@ -9,7 +9,9 @@
  <h1>My Blog</h1>
  <p>Mari Berbagi Cerita</p>
 </div>
- 
+
+<?php include "header.php" ?>
+
 <!-- Menampikan kolom sebelah kiri -->
 <div class="row">
  <div class="leftcolumn">
@@ -63,6 +65,8 @@
 <div class="footer">
  <h2>Footer</h2>
 </div>
+
+<?php include "footer.php" ?>
  
 </body>
 </html>

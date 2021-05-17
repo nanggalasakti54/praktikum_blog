@@ -13,3 +13,6 @@
 <!-- Menampikan kolom sebelah kiri -->
 <div class="row">
  <div class="leftcolumn">
+</div>
+
+
